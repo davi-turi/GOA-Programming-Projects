@@ -1,0 +1,7 @@
+/* font-family: "Cormorant SC", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap');
+
+h1 {
+    font-weight: 500;
+    font-family:"Cormorant SC"
+}

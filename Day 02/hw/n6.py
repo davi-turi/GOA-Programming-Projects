@@ -1,0 +1,1 @@
+# კოდები name = "student", print(name+name) ტერმინალში გამოიტანს name ცვლადის მნიშვნელობას ორჯერ შეტყპებულს, ანუ studentstudent.

@@ -1,0 +1,2 @@
+food = "khinkali"
+print(food)

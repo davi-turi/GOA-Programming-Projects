@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(234, 127, 127);
+}
+
+h1 {
+    background-color: darkred;text-align: center;
+}
+
+p {
+    background-color: fuchsia;text-align: center;
+}
+
+h3 {
+    border:dotted rgb(114, 21, 37)
+}
+
+button {
+    background-color: red;color:white;text-align: center;
+}
+
+a {
+    border:solid darkmagenta;text-align: center;
+}

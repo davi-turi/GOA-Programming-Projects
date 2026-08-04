@@ -1,0 +1,23 @@
+body {
+    background-color: lightslategray;
+}
+
+h1 {
+    background-color: cadetblue; text-align: center;
+}
+
+p {
+    background-color: lightgrey;text-align: center;
+}
+
+h3 {
+    border:dotted gray
+}
+
+button {
+    background-color: black; color:white;text-align: center;
+}
+
+a {
+    border:solid white;text-align: center;
+}

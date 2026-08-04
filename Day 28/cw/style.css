@@ -1,0 +1,41 @@
+#p1 {
+    color:blue;
+    background-color: grey;
+    font-size: 30px;
+}
+
+#p2 {
+    color:coral;
+    background-color: blanchedalmond;
+    font-size: 20px;
+}
+
+#p3 {
+    color:darkred;
+    background-color: darkseagreen;
+    font-size: 20px;
+}
+
+#p4 {
+    color:white;
+    background-color: darkorchid;
+    font-size: 20px;
+    text-align: right;
+}
+
+#p5 {
+    color:lightseagreen;
+    background-color: forestgreen;
+    border:dotted blue
+}
+
+b {
+    color:blue;
+    background-color: grey;
+    font-size:30px
+}
+
+img {
+    width:300px;
+    height:200px
+}

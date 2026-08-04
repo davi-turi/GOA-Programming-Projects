@@ -1,0 +1,40 @@
+/* baseline-ს დახმარებით შექმენი leaderboard იმიტაცია */
+
+.parent {
+    border:none;
+    width:500px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#child2 {
+    width:100px;
+    height:100px;
+    background-color: gold;
+    border:solid 2px black;
+    font-size: 50px;
+    color:white;
+    text-align: center;
+}
+
+#child1 {
+    width:100px;
+    height:100px;
+    background-color:silver;
+    border:solid 2px black;
+    font-size: 40px;
+    color:white;
+    text-align: center;
+}
+
+#child3 {
+    width:100px;
+    height:100px;
+    background-color:rgb(250, 151, 31);
+    border:solid 2px black;
+    font-size: 30px;
+    color:white;
+    text-align: center;
+}

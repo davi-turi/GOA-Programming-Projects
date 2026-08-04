@@ -1,0 +1,13 @@
+p {
+    color:blue
+}
+
+.pp {
+    color:blueviolet
+}
+
+#p1 {
+    color:cyan
+}
+
+/* ელემენტს მიენიჭება id selector, რადგან ის სხვებზე უფრო პრიორიტეტულია. */

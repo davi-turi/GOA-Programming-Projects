@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(6, 6, 83);
+}
+
+h1 {
+    color:white;
+    border:groove lightblue 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    color:red;
+    font-size:20px;
+    text-align: center;
+}
+
+nav {
+    background-color: darkcyan;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+.heading {
+    border:inset whitesmoke 20px;
+    color:white
+}
+
+img {
+    width:200px;
+}
+
+.about {
+    background-color: navajowhite;
+    color:black
+}
+
+a {
+    background-color: paleturquoise;
+    color:black;
+    border:dashed lightyellow
+}
+
+#y1 {
+    color:black;
+    text-align: center;
+    font-size: small;
+}
+
+#y2 {
+    color:red;
+    text-align: center;
+    font-size: small;
+}

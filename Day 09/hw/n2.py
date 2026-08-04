@@ -1,0 +1,8 @@
+father=input("enter your father's age:")
+mother=input("enter your mother's age:")
+the_oldest_sister=input("enter your oldest sister's age:")
+the_middle_sister=input("enter your middle sister's age:")
+print(int(father)+25)
+print(int(mother)+25)
+print(int(the_oldest_sister)+25)
+print(int(the_middle_sister)+25)

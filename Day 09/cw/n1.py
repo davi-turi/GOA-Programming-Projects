@@ -1,0 +1,1 @@
+# explicit data conversion ნიშნავს ჩვენი ხელით გასწორებას, მაგ: print(int(input)) და implicit data conversion ნიშნავს ავტომატურ გასწორებას მაგ:int(12/3)

@@ -1,0 +1,34 @@
+/* შექმენი div-ი რომელსაც გუაწერ display flex-ს და 300px სიმაღლეს. მასში ჩასვი 4 div-ი და გამოიყენე align-self იმისთვის რომ პირველი div-ი იყოს ზევით,მეორე შუაში,მესამე ქვევით,ხოლო მეოთხე შუაში. */
+
+
+.parent {
+    width:50%;
+    height:500px;
+    border:solid black 2px;
+    display: flex;
+    gap:10px
+}
+
+
+.child {
+    width:100px;
+    height:100px;
+    background-color: red;
+    border:solid black 2px
+}
+
+.ch-1 {
+    align-self:flex-start
+}
+
+.ch-2 {
+    align-self: center;
+}
+
+.ch-3 {
+    align-self: flex-end;
+}
+
+.ch-4 {
+    align-self: center;
+}

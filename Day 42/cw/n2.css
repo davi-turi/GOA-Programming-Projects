@@ -1,0 +1,31 @@
+/* შექმენი ერთი div-ი და გაუწერე მას display flex-ი. მასში მოათავსე სამი div-ი,მიანიჭე მათ background ფერები და გამოიყენე მათზე flex-grow. პირველ div-ს გაუწერე flex-grow: 1,მეორეს flex-grow: 2,ხოლო მესამეს flex-grow:3. ახსენი როგორ განაწილდა სივრცე ამ სამ div-ზე. */
+
+
+.parent {
+    width:50%;
+    height:500px;
+    border:solid black 2px;
+    display: flex;
+    gap:10px
+}
+
+.child {
+    width:100px;
+    height:100px;
+    background-color: darkblue;
+    border:solid black 2px
+}
+
+.ch-1 {
+    flex-grow: 1;
+}
+
+.ch-2 {
+    flex-grow:2
+}
+
+.ch-3 {
+    flex-grow: 3;
+}
+
+/* დივს, რომელსაც გაწერილი აქვს flex-grow:3 ყველაზე დიდ სირცეს დაიკავებს, მისი სივრცე იქნება 3-ჯერ დიდი ყველაზე პატარა სივრცის მქონე ელემენტზე. */

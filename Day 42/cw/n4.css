@@ -1,0 +1,38 @@
+/* შექმენი div-ი რომელსაც გაუწერ display flex-ს. მასში მოათავსე 5 div-ი რომლებშიც ჩაწერ მათი ადგილის შესაბამის რიცხვს.order-ის გამოყენებით კი დაალაგე ისინი შემდეგი თანმიმდევრობით:5-3-1-4-2 */
+
+.parent {
+    width:50%;
+    height:500px;
+    border:solid black 2px;
+    display: flex;
+    gap:10px
+}
+
+.child {
+    width:100px;
+    height:100px;
+    background-color: yellow;
+    text-align: center;
+    font-size:30px;
+}
+
+
+.ch-1 {
+    order:-1
+}
+
+.ch-2 {
+    order:1
+}
+
+.ch-3 {
+    order:-3
+}
+
+.ch-4 {
+    order:0
+}
+
+.ch-5 {
+    order:-4
+}

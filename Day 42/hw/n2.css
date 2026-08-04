@@ -1,0 +1,25 @@
+.parent {
+    width:500px;
+    display: flex;
+    gap:10px;
+}
+
+.child {
+    width:250px;
+    height:250px;
+    background-color: green;
+}
+
+.ch1 {
+    flex-shrink: 1;
+}
+
+.ch2 {
+    flex-shrink: 0;
+}
+
+.ch3 {
+    flex-shrink: 2;
+}
+
+/* ზოგი ელემენტი სხვებზე მეტად შემცირდა, რადგან დაპატარავების სიჩქარე უფრო მეტი აქვთ. */

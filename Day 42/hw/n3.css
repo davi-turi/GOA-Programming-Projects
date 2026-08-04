@@ -1,0 +1,34 @@
+.parent {
+    width:500px;
+    height:800px;
+    background-color: skyblue;
+    border: solid black;
+    display: flex;
+    gap:10px
+}
+
+.child {
+    width:100px;
+    height:100px;
+    background-color: blue;
+}
+
+.chl-1 {
+    align-self: flex-start;
+}
+
+.chl-2 {
+    align-self: flex-end;
+}
+
+.chl-3 {
+    align-self: center;
+}
+
+.chl-4 {
+    align-self: flex-start;
+}
+
+.chl-5 {
+    align-self: flex-end;
+}

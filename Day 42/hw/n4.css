@@ -1,0 +1,41 @@
+.parent {
+    width: 500px;
+    height:800px;
+    display: flex;
+    gap:10px
+}
+
+.child {
+    width: 100px;
+    height:100px;
+    background-color: darkmagenta;
+    border:dashed red 2px;
+    color:white;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+}
+
+.ch1 {
+    order:0
+}
+
+.ch2 {
+    order:-3
+}
+
+.ch3 {
+    order:2
+}
+
+.ch4 {
+    order:-2
+}
+
+.ch5 {
+    order:1
+}
+
+.ch6 {
+    order:-1
+}

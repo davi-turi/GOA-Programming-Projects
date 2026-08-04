@@ -1,0 +1,6 @@
+h1 {
+    text-align: center;
+    text-decoration: dashed 3px  underline lightblue;
+    text-shadow: yellow 1px -3px 3px;
+    text-transform: capitalize;
+}

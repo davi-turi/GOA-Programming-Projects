@@ -1,0 +1,105 @@
+#bd {
+    background-color: rgb(35, 35, 78);
+}
+
+nav {
+    text-align: center;
+    color:white;
+    font-size: 18px;
+}
+
+#img_1 {
+    width:400;
+    height: 300;
+}
+
+#h1_1 {
+    color:white;
+    font-size:50px;
+    text-shadow: lightblue 2px 2px 2px;
+    text-align: center;
+}
+
+.pp {
+    color:beige;
+    text-align: center;
+    border:dashed 2px rgb(146, 146, 185);
+    text-align: center;
+    font-size: 22px;
+}
+
+#p_1 {
+    color:lightskyblue;
+    text-align: center;
+    font-size:20px
+}
+
+#h1_2 {
+    color:rgb(10, 83, 128);
+    background-color: cornflowerblue;
+    text-decoration: solid unset,underline white 2px;
+    text-align: center;
+    font-size:50px
+}
+
+#p_2 {
+    background-color: lightskyblue;
+    color:black;
+    text-align: justify;
+    font-size:22px
+}
+
+.imgs {
+    width:200;
+    height:300
+}
+
+#h2_1 {
+    color:whitesmoke;
+    text-shadow: lightseagreen 3px 3px 1px;
+    text-align: center;
+    font-size:35px
+}
+
+#a1 {
+    color:white;
+    text-decoration: solid unset white 2px;
+    text-align: center;
+}
+
+#h1_3 {
+    background-color: lightgreen;
+    color:black;
+    font-size:50px;
+    text-align: center;
+    text-shadow:olivedrab 2px 2px 2px
+}
+
+#p_3 {
+    color:whitesmoke;
+    text-align: center;
+    font-size: 20px;
+}
+
+b {
+    color:aqua;
+    font-size: 25px;
+}
+
+h2 {
+    background-color: rgb(131, 131, 160);
+    border: solid skyblue 3px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.a {
+    color:rgb(163, 134, 191);
+    text-align: center;
+}
+
+a {
+    color:white;
+    text-decoration: solid 2px white unset;
+    text-align: center;
+}

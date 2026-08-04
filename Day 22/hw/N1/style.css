@@ -1,0 +1,41 @@
+body {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    text-align: center;
+    color:navy;
+    font-size: 76px;
+    border: solid rgb(15, 65, 85);
+}
+
+p {
+    text-align: center;
+    font-size: 35px;
+    color:white
+}
+
+h3 {
+    color:darkslategrey;
+    text-align:center;
+    font-size: 40px;
+}
+
+nav {
+    font-size: medium;
+    color:whitesmoke;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color:blue;
+    border:outset black 20px
+}
+
+ul {
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: lightcyan;
+        }
+
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            color:darkslategrey;
+            border:dotted lightsalmon 20px
+        }
+
+        h2 {
+            font-size: 40px;
+            text-align: center;
+            color:darkslategrey;
+            border:dashed lightsalmon 20px
+        }
+
+        form {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ავიაბილეთები</h1>
+        <center>
+            <nav>
+                <a href="./index.html">მთავარი</a>
+                <a href="./contact.html">კონტაქტი</a>
+            </nav>
+        </center><br><br>
+    </header>
+
+    <main>
+        <h2>შეავსეთ ფორმა</h2>
+        <form>
+        <select name="country">
+            <option selected disabled>გაფრენა</option>
+            <option>საფრანგეთი</option>
+            <option>შვეიცარია</option>
+            <option>ბალი</option>
+            <option>ინგლისი</option>
+        </select><br><br>
+
+        <input type="date" name="გაფრენის თარიღი" id="1">
+        <label for="1">გაფრენის თარიღი</label><br><br>
+        <input type="date" name="გამოფრენის თარიღი" id="2">
+        <label for="2">გამოფრენის თარიღი</label><br><br>
+
+        <select name="მგზარები">
+            <option selected disabled>მგზავრები</option>
+            <option>უფროსი</option>
+            <option>ბავშვები 12 წლამდე</option>
+            <option>ბავშვები 5 წლამდე</option>
+        </select>
+        </form>
+       
+    </main>
+</body>
+</html>

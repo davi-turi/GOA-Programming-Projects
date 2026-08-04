@@ -1,0 +1,20 @@
+table {
+    border-collapse:collapse
+}
+
+td, th {
+    border:rgba(203, 200, 200, 0.855) 1px solid;
+    width:150px;
+    height:30px;
+    font-family:'Times New Roman'
+}
+
+th {
+    background-color: rgb(51, 213, 205);
+    color:white;
+    text-align: left;
+}
+
+tr:nth-child(Even) {
+    background-color: rgb(232, 229, 229);
+}

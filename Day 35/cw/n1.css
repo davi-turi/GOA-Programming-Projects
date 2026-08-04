@@ -1,0 +1,26 @@
+h1 {
+    font-family:Arial;
+    font-size:30px
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+    text-align: center;
+    border:solid grey 2px;
+    width:200px
+}
+
+th{
+    background-color: rgb(28, 165, 76);
+}
+
+tr:nth-child(3){
+    background-color: skyblue;
+}
+
+tr:nth-child(5) {
+    background-color: skyblue;
+}

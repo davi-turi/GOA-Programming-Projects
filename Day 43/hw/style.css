@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    height:1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent {
+    border:black solid 2px;
+    box-shadow: 7px 7px 0 black;
+    border-radius: 15px;
+    padding:20px;
+    background-color:white ;
+    width:375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+}
+
+.parent p {
+    font-size: 16px;
+}
+
+#img1 {
+    width:375px;
+    border-radius: 15px;
+}
+
+button {
+    border:none;
+    border-radius: 5px;
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    width:100px;
+    height:30px;
+    text-align: center;
+    color:black;
+    font-weight: 550;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+#p1 {
+    color:hsl(0, 0%, 7%);
+    font-weight: 550;
+}
+
+#p2 {
+    color:hsl(0, 0%, 42%);
+    margin-top:1px;
+    text-align: left;
+    line-height: 26px;
+}
+
+h2 {
+    margin-top: 5px;
+    font-weight: 800;
+    color:hsl(0, 0%, 7%);
+}
+
+h2:hover {
+    color:hsl(47, 88%, 63%);
+}
+
+.parent2 {
+    width:500px;
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+
+#img2 {
+    width:40px;
+    height:40px
+}
+
+#p3 {
+    color:hsl(0, 0%, 7%);
+    font-weight: 700;
+}

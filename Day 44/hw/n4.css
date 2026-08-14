@@ -1,0 +1,16 @@
+/* body-ს გაუწერეთ height 300vh,შემდეგ კი შექმენით ღილაკი რომელიც იქნება საიტის ზედა მარჯვენა კუთხეში და დარჩება იქ ჩამოსქროლვის დროსაც. */
+
+body {
+    height:300vh;
+    position: relative;
+}
+
+button {
+    background-color: gold;
+    color:black;
+    border:solid black 2px;
+    border-radius:5px;
+    position: fixed;
+    top:0;
+    right:0
+}

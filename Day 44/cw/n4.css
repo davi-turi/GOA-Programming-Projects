@@ -1,0 +1,13 @@
+/* body-ს გააუწერე height-300vh და შექმენი div-ი რომელიც იქნება 100px სიმაღლეში და 100px სიგანეში,ასევე გაუწერე background ფერიც.გამოიყენე position fixed რომ გააჩერო ის საიტის ზევით. */
+
+
+body {
+    height:300vh;
+}
+
+div{
+    width:100px;
+    height:100px;
+    background-color: chocolate;
+    position: fixed;
+}

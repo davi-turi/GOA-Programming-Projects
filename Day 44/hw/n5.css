@@ -1,0 +1,19 @@
+/* შექმენით div-ი რომელსაც გაუწერთ სიმაღლეს 200px-ს,სიგანეს 300px-ს და position relative-ს. მასში ჩასვი რაიმე ფოტო რომელსაც გაუწერ სიმაღლეს 100%-ს და სიგანეს 100%-ს. position absolute-ის გამოყენებით კი ფოტოს ქვედა მარჯვენა კუთხეში გამოიტანეთ read more ღილაკი. */
+
+
+.parent {
+    height:200px;
+    width:300px;
+    position: relative;
+}
+
+img {
+    height:100%;
+    width:100%;
+}
+
+button {
+    position: absolute;
+    right:0;
+    bottom: 0;
+}

@@ -1,0 +1,59 @@
+/* შექმენით პროდუქტის მარტივი ბარათი. ბარათში უნდა იყოს პროდუქტის ფოტო, ფოტოს ქვემოთ ყიდვის ღილაკი და ფოტოს ზედა მარცხენა კუთხეში position absolute ის გამოყენებით გამოიტანეთ პროდუქტის ფასი. */
+
+
+body {
+    width:100%;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent {
+    width:300px;
+    padding:30px;
+    background-color: aqua;
+    border:solid navy 3px;
+    border-radius: 10px;
+}
+
+.child {
+    position: relative;
+}
+
+img {
+    width:300px;
+    height:200px;
+    border:solid black 2px;
+    border-radius: 15px;
+}
+
+button {
+    background-color: green;
+    color:white;
+    border:solid black 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: yellow;
+    color:black
+}
+
+.price {
+    width: 75px;
+    height:40px;
+    color:red;
+    background-color: orange;
+    border:solid black 2px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    top:0;
+    left:0
+}

@@ -1,0 +1,13 @@
+/* body-ს გააუწერე height-300vh და შექმენი div-ი რომელიც იქნება 200px სიმაღლეში და 200px სიგანეში,გაუწერე მას background ფერიც.გამოიყენე position sticky რომ გააჩერო ის მაშინ როდესაც საიტის ქვედა ნაწილთან მივა. */
+
+body {
+    height:300vh;
+}
+
+div {
+    height:200px;
+    width:200px;
+    background-color: crimson;
+    position: sticky;
+    bottom:0
+}

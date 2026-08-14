@@ -1,0 +1,18 @@
+/* შექმენით div-ი და გაუწერეთ მას border,სიმაღლე 300px და სიგანე 350px. მასში შექმენით კიდევ ერთი div-ი რომელსაც გაუწერთ background color-ს,სიმაღლეს 50px-ს და სიგანე 60px-ს. position absolute გამოყენებით შვილი div მოათავსეთ მშობელი div-ის ზედა მარჯვენა კუთხეში. */
+
+
+.parentDiv {
+    width:300px;
+    height:300px;
+    border:solid blue 4px;
+    position: relative;
+}
+
+.childDiv {
+    height:50px;
+    width:60px;
+    background-color: red;
+    position: absolute;
+    top:0;
+    right:0
+}

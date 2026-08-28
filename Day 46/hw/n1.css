@@ -1,0 +1,10 @@
+/* შექმენით ერთი დივი რომლის background ინქება თქვენი სასურველი ფოტო და ეს ფოტო უნდა ფარავდეს მთლიან დივს */
+
+div {
+    width: 500px;
+    height: 500px;
+    border:none;
+    background-image: url(https://media.istockphoto.com/id/2159126735/photo/a-double-exposure-image-of-skyscrapers-with-overlay-of-financial-graphs-set-against-a-blurred.jpg?b=1&s=1024x1024&w=0&k=20&c=BXHfF7X8e7ylCEIq4ZDpZ8Cupgn38DTGc8gj4bc4Bfs=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

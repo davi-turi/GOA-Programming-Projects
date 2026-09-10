@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.parent {
+    height:700px;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 250px 250px;
+    gap:20px
+}
+
+.child {
+    width:350px;
+    height:250px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Lora";
+    color: white;
+    box-shadow: 1px 8px 12px 0px  rgba(48,48,48,0.63);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    align-items:center;
+    justify-content: center;
+}
+
+.span2 {
+    font-size: 14px;
+}
+
+.span1 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.c1 {
+    background-image: url("seoul.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 350px 250px;
+}
+
+.c2 {
+    background-image: url("tbilisi.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px 250px;
+}
+
+.c3 {
+    background-image: url("newyork.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px 250px;
+}
+
+.c4 {
+    background-image: url("paris.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 350px 250px;
+}
+
+.c5 {
+    background-image: url("tokyo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px 250px;
+}
+
+.c6 {
+    background-image: url("dubai.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px 250px;
+}

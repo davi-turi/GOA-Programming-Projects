@@ -1,0 +1,14 @@
+.parent {
+    height: 500px;
+    display: grid;
+    grid-template-rows:70px 70px ;
+    grid-template-columns: 200px 400px 200px;
+}
+
+.child {
+    background-color: white;
+    border: rgb(14, 154, 14)  3px solid;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}

@@ -1,0 +1,22 @@
+ /* შექმენით grid, სადაც ელემენტები თავდაპირველად განლაგებული იქნება რიგების მიხედვით. შემდეგ გამოიყენეთ grid-auto-flow: column, რათა ელემენტების განლაგება სვეტების მიხედვით მოხდეს. დავალების ბოლოს ორივე ვარიანტი შეადარეთ და ახსენით განსხვავება. */
+
+.parent {
+    width:850px;
+    border: solid red 3px;
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px;
+    /* grid-auto-flow: column; */
+    gap:10px
+}
+
+.child {
+    background-color: cornflowerblue;
+    font-size: 30px;
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* მათ შორის განსხვავება ისაა, რომ თავდაპირველად ელემენტები ლაგდება ჰორიზონტალურად x ღერძზე, ხოლო თვისების გაწერის შემდეგ ვერტიკალურად y ღერძზე. დანარჩენი ყველაფერი იგივე რჩება. */

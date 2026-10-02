@@ -1,0 +1,21 @@
+/* შექმენით grid 6 div-ით. გამოიყენეთ grid-auto-columns, რათა ავტომატურად შექმნილ სვეტებს ჰქონდეთ 150px სიგანე. */
+
+.parent {
+    width: 900px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    grid-template-rows: 200px 200px;
+    grid-auto-flow: column;
+    grid-auto-columns: 150px;
+    gap:5px
+}
+
+.child {
+    background-color: rgb(18, 133, 0);
+    color:white;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

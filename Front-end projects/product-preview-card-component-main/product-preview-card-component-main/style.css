@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Montserrat" */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+/* font-family: "Fraunces" */
+
+body {
+    background-color: hsl(30, 38%, 92%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    margin:200px;
+    width:600px;
+    height:450px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    gap:30px
+}
+
+.cover {
+    width:300px;
+    height:450px;
+    background-image: url("image-product-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size:300px 450px;
+    background-position:center ;
+    border-radius: 10px 0 0 10px;
+}
+
+.main {
+    margin:20px 30px 20px 0 ;
+    width:240px;
+    height:450px;
+    position: relative;
+
+}
+
+#p1 {
+    color:hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    letter-spacing: 7px;
+}
+
+#h1_1 {
+    color:hsl(212, 21%, 14%);
+    width:250px;
+    font-weight: 700;
+    font-family: "Fraunces";
+    position: absolute;
+    top:30px
+}
+
+#p2 {
+    color:hsl(228, 12%, 48%);
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    position: absolute;
+    top:170px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    top:270px
+}
+
+#h1_2 {
+    color:hsl(158, 36%, 37%);
+    font-family: "Fraunces";
+}
+
+#p3 {
+    color:hsl(228, 12%, 48%);
+    font-family: "Montserrat";
+    font-weight: 500;
+    text-decoration: line-through solid hsl(228, 12%, 48%) 1px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    background-color:hsl(158, 36%, 37%);
+    color:white;
+    font-weight:600 ;
+    font-family: "Montserrat";
+    font-size: 14px;
+    border-radius:10px ;
+    width:250px;
+    height: 50px;
+    position: absolute;
+    top:360px
+}
+
+.button:hover {
+    background-color:hsl(158, 42%, 18%) ;
+}

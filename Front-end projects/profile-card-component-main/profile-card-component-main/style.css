@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap');
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(bg-pattern-bottom.svg), url(bg-pattern-top.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1000px, 900px;
+    background-position:850px 350px,-150px -420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent {
+    margin-top:200px;
+    background-color: white;
+    width:375px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: "Kumbh Sans";
+}
+
+.child1 {
+    width:100%;
+    height:200px;
+    background-image: url(bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    border-radius: 10px;
+}
+
+img {
+    width:100px;
+    border:solid white 5px;
+    border-radius:50% ;
+    position: absolute;
+    top:100px;
+    left:35%
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+#p1 {
+    color:hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+#p2 {
+    color:hsl(227, 10%, 46%)
+}
+
+#p3 {
+    color:hsl(227, 10%, 46%);
+    position: absolute;
+    top:235px;
+    left:43%
+}
+
+.line2 {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+    margin-top:30px;
+    margin-bottom:20px;
+    border-top:hsl(223, 26%, 84%) solid 1px ;
+    padding-top:15px
+}
+
+#p4,#p6,#p8 {
+    color:hsl(229, 23%, 23%);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#p5,#p7,#p9 {
+    color:hsl(227, 10%, 46%);
+    font-size: 11px;
+    letter-spacing: 3px;
+    position: absolute;
+    bottom:10px
+}
+
+.sec1,.sec2,.sec3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

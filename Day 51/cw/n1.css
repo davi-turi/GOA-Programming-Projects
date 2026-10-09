@@ -1,0 +1,33 @@
+/* შექმენით grid, რომელშიც იქნება 6 div. ერთ-ერთი div-ი უნდა იკავებდეს 2 სვეტს. ამისთვის გამოიყენეთ grid-area. */
+
+.parent {
+    width:1200px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 300px;
+}
+
+.c1 {
+    background-color: blue;
+    grid-area: 1/1/2/3;
+}
+
+.c2 {
+    background-color: blueviolet;
+}
+
+.c3 {
+    background-color: chartreuse;
+}
+
+.c4 {
+    background-color: darkgoldenrod;
+}
+
+.c5 {
+    background-color: darkmagenta;
+}
+
+.c6 {
+    background-color: darkgreen;
+}

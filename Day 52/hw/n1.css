@@ -1,0 +1,15 @@
+/* შექმენით grid 8 div-ით. გამოიყენეთ repeat() ისე, რომ grid-ს ჰქონდეს 4 თანაბარი სვეტი. */
+
+.parent {
+    width: 500px;
+    height:300px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    gap:10px
+}
+
+.child {
+    background-color: aqua;
+    border-radius: 10px;
+}

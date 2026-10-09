@@ -1,0 +1,46 @@
+.parent {
+    width: 400px;
+    height: 300px;
+    border: solid black 3px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    'header header header header'
+    'main main empty sidebar'
+    'footer footer footer footer';
+    gap:5px
+}
+
+.child {
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.c1 {
+    background-color: orange;
+    grid-area: header;
+}
+
+.c2 {
+    background-color: rgb(41, 158, 204);
+    grid-area: main;
+}
+
+.c3 {
+    grid-area: empty;
+}
+
+.c4 {
+    background-color: rgb(215, 66, 66);
+    grid-area: sidebar;
+}
+
+.c5 {
+    background-color: rgb(115, 222, 115);
+    grid-area: footer;
+}

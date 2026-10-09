@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(44, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    margin-top: 100px;
+    width: 800px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(10, 100px);
+    grid-template-areas: 
+    'header header header header'
+    'sidebar featured-game featured-game login'
+    'sidebar featured-game featured-game login'
+    'sidebar game1 game2 login'
+    'sidebar game3 game4 login'
+    'popular-games popular-games popular-games popular-games'
+    'game5 game6 game7 game8'
+    'big-banner big-banner news-updates news-updates'
+    'big-banner big-banner news-updates news-updates'
+    'footer footer footer footer';
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+.c1 {
+    grid-area: header;
+    border-top: solid white 3px;
+    border-bottom: solid white 3px;
+    border-left: dashed white 5px;
+    border-right: dashed white 5px;
+}
+
+.c2 {
+    grid-area: sidebar;
+    border-left: dashed white 5px;
+    border-right: dashed white 5px;
+}
+
+.c3 {
+    grid-area: featured-game;
+    border-bottom: solid white 3px;
+}
+
+.c4 {
+    grid-area: login;
+    border-left: dashed white 5px;
+    border-right: dashed white 5px;
+}
+
+.c5 {
+    grid-area: game1;
+    border-bottom: solid white 3px;
+    border-right: dashed white 5px;
+}
+
+.c6 {
+    grid-area: game2;
+    border-bottom: solid white 3px;
+}
+
+.c7 {
+    grid-area: game3;
+    border-right: dashed white 5px;
+}
+
+.c8 {
+    grid-area: game4;
+}
+
+.c9 {
+    grid-area: popular-games;
+    border-top: solid white 3px;
+    border-bottom: solid white 3px;
+    border-right: dashed white 5px;
+    border-left: dashed white 5px;
+}
+
+.c10 {
+    grid-area: game5;
+    border-left: dashed white 5px;
+}
+
+.c11 {
+    grid-area: game6;
+    border-left: dashed white 5px;
+}
+
+.c12 {
+    grid-area: game7;
+    border-left: dashed white 5px;
+}
+
+.c13 {
+    grid-area: game8;
+    border-left: dashed white 5px;
+    border-right: dashed white 5px;
+}
+
+.c14 {
+    grid-area:big-banner ;
+    border-top: solid white 3px;
+    border-left: dashed white 5px;
+    border-right: dashed white 5px;
+}
+
+.c15 {
+    grid-area: news-updates;
+    border-top: solid white 3px;
+    border-right: dashed white 3px;
+}
+
+.c16 {
+    grid-area: footer;
+    border-top: solid 3px white;
+    border-bottom: solid white 3px;
+    border-left: dashed white 5px;
+    border-right: dashed white 5px;
+}

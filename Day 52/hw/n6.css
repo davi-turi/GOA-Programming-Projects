@@ -1,0 +1,15 @@
+/* შექმენით grid 6 div-ით. გამოიყენეთ gap, რათა სვეტებს შორის დაშორება იყოს 40px და რიგებს შორის დაშორება 20px. */
+
+.parent {
+    width: 300px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap:20px 40px
+}
+
+.child {
+    background-color: lemonchiffon;
+    border:gold 3px solid
+}

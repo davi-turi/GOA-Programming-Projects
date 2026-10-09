@@ -1,0 +1,13 @@
+/* შექმენით grid 6 div-ით. გამოიყენეთ justify-content: end, რათა მთელი grid-ის შიგთავსი კონტეინერის მარჯვენა მხარეს გადავიდეს. */
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 5px;
+    justify-content: end;
+}
+
+.child {
+    background-color: slateblue;
+}

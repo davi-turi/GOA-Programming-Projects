@@ -1,0 +1,17 @@
+/* შექმენით grid 4 div-ით. გამოიყენეთ justify-items: center, რათა ყველა div თავისი grid-ის უჯრის ჰორიზონტალურ ცენტრში განთავსდეს. */
+
+.parent {
+    width: 400px;
+    height:400px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(4, 1fr);
+    gap:5px;
+    justify-items: center;
+}
+
+.child {
+    background-color: dodgerblue;
+    width: 50px;
+    height: 50px;
+}

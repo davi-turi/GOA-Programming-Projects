@@ -1,0 +1,22 @@
+/* შექმენით 4 ღილაკი ჰორიზონტალურად განლაგებული. თითოეულ ღილაკს მაუსის გადატარებისას უნდა შეეცვალოს ფონის ფერი, გაიზარდოს 1.1-ჯერ და გადაადგილდეს 5px-ით ზემოთ. გამოიყენეთ scale(), translate() და transition. */
+
+body {
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px
+}
+
+.bt {
+    border:solid 1px rgb(0, 239, 195);
+    border-radius: 5px;
+    transition: scale 2s, traslate 1s, background-color 3s;
+    background-color: blueviolet;
+}
+
+.bt:hover {
+    background-color:red;
+    transform: scale(1.1) translate(0, -5px);
+}

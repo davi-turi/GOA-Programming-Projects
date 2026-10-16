@@ -1,0 +1,52 @@
+/* შექმენით 6 სურათისგან შემდგარი გალერეა Grid-ის გამოყენებით. მაუსის გადატარებისას სურათი უნდა გაიზარდოს 1.15-ჯერ და შემოტრიალდეს 5 გრადუსით. თითოეულ სურათს მიანიჭეთ განსხვავებული transform-origin და გამოიყენეთ transition. */
+
+body {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 1000px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2,300px);
+    gap:100px
+}
+
+img {
+    width:200px ;
+    height: 300px;
+    transition: transform 3s;
+}
+
+
+img:hover {
+    transform: rotate(5deg) scale(1.15);
+}
+
+#img1:hover {
+    transform-origin: top left;
+}
+
+#img2 {
+    transform-origin: bottom right;
+}
+
+#img3 {
+    transform-origin: right top;
+}
+
+#img4 {
+    transform-origin: left bottom;
+}
+
+#img5 {
+    transform-origin: center;
+}
+
+#img6 {
+    transform-origin: center top;
+}

@@ -1,0 +1,33 @@
+/* შექმენით 3 div. პირველს მაუსის გადატარებისას შემოატრიალეთ 45 გრადუსით, მეორეს 90 გრადუსით, ხოლო მესამეს -45 გრადუსით. გამოიყენეთ rotate() და transition. */
+
+.child {
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    transition: 2s;
+    margin:80px
+}
+
+#c1 {
+    background-color: darkorange;
+}
+
+#c2 {
+    background-color: darkmagenta;
+}
+
+#c3 {
+    background-color: greenyellow;
+}
+
+#c1:hover {
+    transform: rotate(45deg);
+}
+
+#c2:hover {
+    transform: rotate(90deg);
+}
+
+#c3:hover {
+    transform:rotate(-45deg);
+}

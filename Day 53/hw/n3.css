@@ -1,0 +1,45 @@
+/* შექმენით 3 მართკუთხედი. თითოეულს მიანიჭეთ განსხვავებული transform-origin. მაუსის გადატარებისას მართკუთხედები უნდა შემოტრიალდეს შესაბამისად 30, 45 და 60 გრადუსით. გამოიყენეთ rotate() და transition. */
+
+body {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+
+.rectangle {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.r1 {
+    background-color: rgb(24, 24, 177);
+    transition: transform 2s;
+}
+
+.r1:hover {
+    transform: rotate(60deg);
+    transform-origin: top left;
+}
+
+.r2 {
+    background-color: rgb(103, 103, 228);
+    transition: transform 1s;
+}
+
+.r2:hover {
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+}
+
+.r3 {
+    background-color: lightblue;
+    transition: transform 3s;
+}
+
+.r3:hover {
+    transform: rotate(30deg);
+    transform-origin: center;
+}

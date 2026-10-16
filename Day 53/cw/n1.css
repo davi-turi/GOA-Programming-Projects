@@ -1,0 +1,41 @@
+/* შექმენით 3 div. მაუსის გადატარებისას თითოეული div უნდა გაიზარდოს განსხვავებული მასშტაბით. გამოიყენეთ scale() და transition. */
+
+.parent {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    transition: 3s;
+}
+
+.c1 {
+    background-color: red;
+}
+
+.c2{
+    background-color: yellow;
+}
+
+.c3 {
+    background-color: green;
+}
+
+
+.c1:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.c2:hover{
+    transform: scale(2, 2);
+}
+
+.c3:hover {
+    transform: scale(3, 3);
+}

@@ -1,0 +1,20 @@
+/* შექმენით ერთი div. მაუსის გადატარებისას div უნდა გადაადგილდეს 100px-ით მარჯვნივ და 50px-ით ზემოთ. გამოიყენეთ translate(x, y) და transition. */
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+div {
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+}
+
+div:hover {
+    transform: translate(100px, -50px);
+}

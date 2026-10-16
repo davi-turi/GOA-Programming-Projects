@@ -1,0 +1,46 @@
+/* შექმენით 3 ბარათი, რომლებშიც იქნება სურათი და ტექსტი. მაუსის გადატარებისას ბარათი უნდა გადაადგილდეს 10px-ით ზემოთ და გაიზარდოს 1.1-ჯერ. გამოიყენეთ translate(), scale() და transition. */
+
+body {
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    border-radius: 5px;
+    gap:10px;
+    transition: translate 3s, scale 2s;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: translate(0,-10px) scale(1.1);
+}
+
+.c1 {
+    background-color:rgb(200, 35, 35) ;
+}
+
+.c2 {
+    background-color: skyblue;
+}
+
+.c3 {
+    background-color: yellow;
+}
+

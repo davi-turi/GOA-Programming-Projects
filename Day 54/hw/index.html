@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Hotel booking confirmation page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <divc class="parent">
+
+    <div class="sidebar">
+      <div class="img">
+        <img src="./images/logo.svg">
+      </div>
+
+      <div class="list">
+        <a href="#" class="link" id="a1"><img src="./images/icon-bed.svg"> Your stay <span>1</span></a>
+        <a href="#" class="link"><img src="./images/icon-house.svg"> The house</a>
+        <a href="#" class="link"><img src="./images/icon-pin.svg"> Around town</a>
+        <a href="#" class="link"><img src="./images/icon-breakfast-outline.svg"> Breakfast</a>
+        <a href="#" class="link"><img src="./images/icon-mail.svg" alt=""> Messages</a>
+      </div>
+
+      <div class="date">
+        <div id="sun1"></div>
+        <strong class="str">Today in Cassis</strong>
+        <strong id="temp"> 27°</strong>
+        <strong class="str">Sunny · light breeze</strong>
+      </div>
+
+      <div class="text">
+        <strong class="st">Est. 1987</strong>
+        <strong class="st">Maison Soleil · 12 Rue des Oliviers · Cassis</strong>
+        <strong class="st">© 2026 Maison Soleil</strong>
+      </div>
+    </div>
+    <!--------------------------------------------------- Sidebar------------------------------------------------------>
+
+    <div class="head">
+      <div class="pt1">
+        <strong id="st1">Booking · Confirmed</strong>
+        <strong id="st2">Bienvenue,<i> Lucia.</i></strong>
+      </div>
+
+      <div class="buts">
+        <button id="b1">Print receipt</button>
+        <button id="b2">Add to calendar</button>
+      </div>
+    </div>
+    <!--------------------------------------------------- Head------------------------------------------------------>
+
+    <div class="main">
+      <img id="sunn" src="./images/illustration-sun.svg">
+      <div class="main2">
+        <div class="cards receipt">
+          <div class="rec">
+            <div class="rec1">
+              <strong id="rec1_1">Receipt</strong>
+              <strong id="rec1_2">Your stay</strong>
+            </div>
+            
+            <div class="rec2">
+              <strong class="rec2_1">№ MS-2026</strong>
+              <strong class="rec2_1">0421-AH</strong>
+            </div>
+          </div>
+
+          <div class="check">
+            <div class="checkk">
+              <strong class="ch1">Check in</strong>
+              <strong class="date2">25 Apr</strong>
+              <strong class="ch2">Saturday · 15:00</strong>
+            </div>
+
+            <div class="checkk">
+              <strong class="ch1">Check out</strong>
+              <strong class="date2">29 Apr</strong>
+              <strong class="ch2">Wednesday · 11:00</strong>
+            </div>
+          </div>
+
+          <div class="price">
+            <strong>Room · La Garrigue · 4 nights <span id="sp1">€ 620.00</span></strong>
+            <strong>Breakfast · 2 guests <span id="sp2">€ 96.00</span></strong>
+            <strong>Tourist tax <span id="sp3">€ 14.40</span></strong>
+          </div>
+
+          <div class="total">
+            <div class="tt1"><strong id="t1">ToTal paid </strong>  <strong id="t2"> € 730.40</strong></div>
+            <div class="tt1"><strong id="t3">Paid · Wise · GBP</strong> <img src="./images/icon-barcode.svg"></div>
+          </div>
+        </div>
+
+        <div class="cards wel-card">
+          <div class="welcome">
+            <strong>Welcome card</strong>
+            <img src="./images/icon-sun.svg">
+          </div>
+
+          <div class="txt">
+            <div class="txt2">
+              <i id="host">A note from your host,</i>
+              <i id="name">Margaux.</i> 
+            </div>
+           <strong id="ttt">We're so glad you're coming. The shutters will be open, the lemonade cold, and the cat - Poivre - pretending not to notice you.</strong>
+           <div class="txt3">
+            <strong id="r">Room</strong>
+            <strong id="place">La Garrigue </strong> 
+           </div>
+          </div>
+        </div>  
+        <strong id="fun"><img src="./images/icon-sparkle.svg"> HOVER TO FUN <img src="./images/icon-sparkle.svg"></strong>
+      </div>
+    </div>
+    
+    <!--------------------------------------------------- Main------------------------------------------------------>
+
+    <div class="card card1">
+      <div class="head2">
+        <div id="redsig"><img src="./images/icon-key.svg"></div>
+        <strong id="red">ARRIVAL <span>01</span></strong>
+      </div>
+      <div class="text2">
+        <strong class="c1">Check-in from 15:00</strong>
+        <strong class="c2">Sat, 25 April</strong>
+        <strong class="c3">Ring the brass bell by the blue door. If we're at the market, the key is in the terracotta pot by the olive tree.</strong>
+      </div>
+      
+    </div>
+    <!--------------------------------------------------- Card1--------------------------------------------------------->
+
+    <div class="card card2">
+      <div class="head3">
+        <div id="bluesig"><img src="./images/icon-wifi.svg"></div>
+        <strong id="blue">WIFI <span>02</span></strong>
+      </div>
+      <div class="text3">
+        <strong class="c1">Le Soleil · Guest</strong>
+        <strong class="c2">Password below</strong>
+        <div id="net"><strong class="n1">Network</strong> <strong class="n2">Le Soleil · Guest</strong></div>
+        <div id="pas"><strong class="n1">Password</strong> <strong class="n2">soleil-2026<span class="n3">Copy</span> </strong></div>
+      </div>
+    </div>
+    <!------------------------------------------------- Card2------------------------------------------------------->
+
+    <div class="card card3">
+      <div class="head2">
+        <div id="pinksig"><img src="./images/icon-breakfast.svg"></div>
+        <strong id="pink">BREAKFAST <span>03</span></strong>
+      </div>
+      <div class="text2">
+        <strong class="c1">Served 8 - 10:30</strong>
+        <strong class="c2">On the terrace</strong>
+        <strong class="c3">Fresh figs, Marseille honey, pain au levain, and espresso. Gluten-free option? Leave a note the night before.</strong>
+      </div>
+    </div>
+    <!--------------------------------------------------- Card3--------------------------------------------------------->
+  </div>
+</body>
+</html>

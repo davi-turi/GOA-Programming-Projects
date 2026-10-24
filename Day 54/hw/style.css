@@ -1,0 +1,795 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+/* font-family: "DM Mono", monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+/* font-family: "Fraunces", serif;*/
+
+body {
+    height: 100vh;
+    background-color:hsl(30, 24%, 93%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.parent {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(15, 87.5px);
+    grid-template-rows: repeat(16, 60px);
+    grid-template-areas:
+    "sidebar sidebar sidebar head head head head head head head head head head head head"
+    "sidebar sidebar sidebar head head head head head head head head head head head head"
+    "sidebar sidebar sidebar main main main main main main main main main main main main"
+    "sidebar sidebar sidebar main main main main main main main main main main main main"
+    "sidebar sidebar sidebar main main main main main main main main main main main main"
+    "sidebar sidebar sidebar main main main main main main main main main main main main"
+    "sidebar sidebar sidebar main main main main main main main main main main main main" 
+    "sidebar sidebar sidebar main main main main main main main main main main main main"
+    "sidebar sidebar sidebar main main main main main main main main main main main main"
+    "sidebar sidebar sidebar main main main main main main main main main main main main"
+    "sidebar sidebar sidebar main main main main main main main main main main main main"
+    "sidebar sidebar sidebar card1 card1 card1 card1 card2 card2 card2 card2 card3 card3 card3 card3"
+    "sidebar sidebar sidebar card1 card1 card1 card1 card2 card2 card2 card2 card3 card3 card3 card3"
+    "sidebar sidebar sidebar card1 card1 card1 card1 card2 card2 card2 card2 card3 card3 card3 card3"
+    "sidebar sidebar sidebar card1 card1 card1 card1 card2 card2 card2 card2 card3 card3 card3 card3"
+    "sidebar sidebar sidebar clear clear clear clear clear clear clear clear clear clear clear clear" ;
+    gap: 12px;
+}
+
+.head {
+    grid-area: head;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:300px;
+    padding-top: 40px;
+}
+
+.pt1 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:5px;
+    margin-left: 50px;
+}
+
+#st1 {
+    font-family: "DM Mono", monospace; 
+    font-weight: 500;
+    color: hsl(33, 17%, 41%);
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+#st2 {
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: hsl(33, 15%, 15%);
+}
+
+#st2 i {
+    color: hsl(15, 69%, 37%);
+}
+
+.buts {
+    width: 400px;
+    display: flex;
+    gap:10px
+}
+
+.buts button {
+    width: 200px;
+    border:none;
+    height: 40px;
+    border-radius: 90px;
+}
+
+#b1 {
+    background-color: white;
+    color: hsl(33, 15%, 15%) ;
+    font-size: 16px;
+    font-weight: 550;
+    border: solid 1px hsl(33, 15%, 15%) ;
+}
+
+#b2 {
+    background-color:hsl(33, 15%, 15%) ;
+    color: white;
+    font-size: 16px;
+    font-weight: 550;
+}
+.buts button:hover {
+   border: solid 3px hsl(15, 69%, 37%);
+}
+
+/* ---------------------------------------------------------Head-------------------------------------- */
+
+
+.main {
+    grid-area: main;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    transition: translate 1s;
+}
+
+.main2:hover .receipt {
+    transform: rotate(5deg) translate(-120px);
+}
+
+.main2:hover .wel-card {
+    transform: rotate(-5deg) translate(120px);
+}
+
+.main2 {
+    margin-top: 50px;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#sunn {
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    position: absolute;
+    top:45%;
+    left: 51%;
+}
+
+.cards {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.receipt {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    z-index: 2;
+    position: absolute;
+    left: 50px;
+    top:10px;
+    transform: rotate(-5deg);
+    box-shadow: -13px 19px 22px -5px rgba(88,88,88,0.5);
+    transition: 1s
+}
+
+/* .receipt:hover {
+    transform: rotate(5deg) translate(-100px);
+} */
+
+.rec {
+    width: 370px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    gap:150px;
+    border-bottom: dashed 2px hsl(33, 19%, 72%);
+}
+
+.rec1 {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:5px
+}
+
+#rec1_1 {
+    font-size:16px ;
+    color:hsl(32, 20%, 29%) ;
+    font-weight: 400;
+    font-family: "DM Mono", monospace;
+}
+
+#rec1_2 {
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: "Fraunces", serif;
+}
+
+.rec2 {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap:5px
+}
+
+.rec2_1 {
+    font-size: 16px;
+    color: hsl(32, 20%, 29%);
+    font-weight: 400;
+    font-family: "DM Mono", monospace
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: dashed 2px hsl(33, 19%, 72%);
+}
+
+.checkk {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3px;
+}
+
+.ch1 {
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    color: hsl(33, 17%, 41%);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.date2 {
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    font-family: "Fraunces", serif
+}
+
+.ch2 {
+    font-size: 16px;
+    font-weight: 500;
+    color:hsl(33, 22%, 20%);
+    font-family: "DM Mono", monospace
+}
+
+.price {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:7px;
+    font-family: "DM Mono", monospace;
+    border-bottom: solid 2px hsl(33, 15%, 15%);
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.price strong {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#sp1 {
+    margin-left: 90px;
+}
+
+#sp2 {
+    margin-left: 167px;
+}
+
+#sp3 {
+    margin-left: 243px;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px
+}
+
+.tt1 {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#t1 {
+    font-size: 16px;
+    color: hsl(33, 17%, 41%);
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#t2 {
+    font-size: 30px;
+    color: black;
+    font-family: "Fraunces", serif;
+    font-weight: 500;
+}
+
+#t3 {
+    font-size: 14px;
+    color: hsl(33, 17%, 41%);
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.tt1 img {
+    width: 130px;
+}
+/* Receipt-------------------------------------- */
+
+.wel-card {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(
+        210deg,
+        hsl(22, 72%, 56%),
+        hsl(18, 62%, 47%),
+        hsl(15, 74%, 41%),
+        hsl(15, 69%, 37%)
+        );
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    right: 70px;
+    top: 10px;
+    transform: rotate(5deg);
+    box-shadow: 10px 12px 22px -5px hsl(15, 74%, 41%);
+    transition: 1s;
+}
+
+/* .wel-card:hover {
+    transform: rotate(-5deg) translate(100px);
+} */
+
+.welcome {
+    height: 70px;
+    width: 450px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:220px;
+    margin-top: 30px;
+    border-top: dashed 2px hsl(30, 24%, 93%);
+}
+
+.welcome img {
+    margin-top: 30px;
+    width: 80px;
+}
+
+.welcome strong {
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(30, 24%, 93%);
+    text-transform: uppercase;
+    font-family: "DM Mono", monospace;
+    width: 150px;
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    gap:40px
+}
+
+.txt2 {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#host {
+    color:hsl(45, 100%, 74%);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#name {
+    color:hsl(41, 100%, 93%) ;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#ttt {
+    width: 450px;
+    color: hsl(41, 100%, 93%);
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "DM Mono", monospace;
+    margin-left: 20px;
+    line-height: 20px;
+}
+
+.txt3 {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+#r {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color:hsl(0, 0%, 100%);
+    font-family: "DM Mono", monospace;
+}
+
+#place {
+    font-weight: 400;
+    font-size: 20px;
+    color:hsl(30, 24%, 93%);
+    font-family: "Fraunces", serif;
+}
+
+#fun {
+    position: absolute;
+    top:530px;
+    font-family: "DM Mono", monospace;
+    font-weight: 400;
+    color:hsl(33, 17%, 41%)
+}
+/* Welcome-------------------------- */
+/* ------------------------------------------------------------Main------------------------- */
+
+.sidebar {
+    grid-area: sidebar;
+    border-right:hsl(33, 17%, 41%) solid 0.5px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.img {
+    width: 90%;
+    height: 7%;
+    margin-top: 20px;
+    border-bottom: solid 0.5px hsl(33, 17%, 41%);
+}
+
+.img img {
+    width: 130px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap:10px
+}
+
+.link {
+    text-decoration: none;
+    color:hsl(33, 22%, 20%);
+    font-size: 15px;
+    font-family: "DM Mono", monospace;
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    border-radius: 5px;
+    transition: border 0.6s, background-color 0.6s;
+}
+
+#a1 {
+    background-color:hsl(0, 0%, 100%);
+}
+
+.link:hover {
+    border: solid 2px hsl(9, 91%, 47%) ;
+    background-color:hsl(0, 0%, 100%)
+}
+
+.link span {
+    background-color:hsl(9, 88%, 32%) ;
+    border-radius: 50%;
+    display: inline-block;
+    width: 14px;
+    text-align: center;
+    color:hsl(0, 0%, 100%) ;
+    font-size: 12px;
+    padding: 2px;
+    margin-left: 100px;
+}
+
+.date {
+    width: 250px;
+    height: 120px;
+    background-color:hsl(45, 100%, 74%) ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    margin-top: 410px;
+    padding-left:5px;
+    position: relative;
+    box-shadow: 17px 16px 22px -5px rgba(165,147,121,0.5);
+}
+
+#sun1 {
+    width: 80px;
+    height: 80px;
+    background-image: url('./images/icon-weather.svg');
+    background-repeat: no-repeat;
+    background-position:10px -20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.str {
+    font-family: "DM Mono", monospace;
+    color:hsl(33, 22%, 20%);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#temp {
+    font-family: "Fraunces", serif;
+    color:hsl(33, 15%, 15%) ;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.text {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:15px;
+    margin-top: 80px;
+    border-top: dashed 2px hsl(33, 19%, 72%);
+    padding-top: 10px;
+}
+
+.st {
+    font-family: "DM Mono", monospace;
+    color:hsl(33, 22%, 20%);
+    font-weight: 400;
+    font-size: 15px;
+}
+/* SIDEBAR------------------------------------------------------------------------------- */
+
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+.card1 {
+    grid-area: card1;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+.head2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:20px;
+    padding: 10px;
+}
+
+.text2 {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:20px;
+    margin-left: 10px;
+}
+
+#redsig {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(15, 74%, 41%);
+}
+
+#red{
+    font-family:"DM Mono" ;
+    color:hsl(18, 62%, 47%) ;
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+
+.head2 span {
+    font-size: 25px;
+    font-family: "Fraunces", serif;
+    margin-left: 130px;
+    font-weight: 400;
+}
+
+.c1 {
+    font-family: "Fraunces", serif;
+    font-size: 30px;
+    color: hsl(33, 15%, 15%);
+    font-weight: 400;
+}
+
+.c2 {
+    font-family: "DM Mono", monospace;
+    font-weight: 500;
+    font-size: 15px;
+    color: hsl(32, 20%, 29%);
+}
+
+.c3 {
+    font-family:"DM Mono", monospace ;
+    color:hsl(33, 17%, 41%) ;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* CARD1 -------------------------------------------------------------------------------------- */
+.card2 {
+    grid-area: card2;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.head3 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    padding: 10px;
+}
+
+.head3 span {
+    font-size: 25px;
+    font-family: "Fraunces", serif;
+    margin-left: 130px;
+    font-weight: 400;
+}
+
+#bluesig {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(230, 49%, 56%);
+}
+
+#blue{
+    font-family:"DM Mono" ;
+    color:hsl(230, 49%, 56%) ;
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+
+#blue span {
+    margin-left: 170px;
+}
+
+.text3 {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#net,#pas {
+    font-family:"DM Mono", monospace;
+    width: 360px;
+    height:40px;
+    border-radius: 10px;
+    background-color:hsl(0, 2%, 91%) ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:85px
+}
+
+.n1 {
+    font-size: 16px;
+    font-weight: 400;
+    color:hsl(32, 20%, 29%);
+    text-transform: uppercase;
+    margin-left: 5px;
+    letter-spacing: 3px;
+}
+
+.n2 {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+    display: flex;
+}
+
+.n3 {
+    font-size: 12px;
+    font-weight: 500;
+    color:hsl(32, 20%, 29%);
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    border: solid 0.5px hsl(32, 20%, 29%);
+    border-radius: 50px;
+    margin-left: 20px;
+}
+/* CARD2---------------------------------------------------------------------------------- */
+
+.card3 {
+    grid-area: card3;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+#pinksig {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(340, 48%, 52%);
+}
+
+#pink {
+    font-family:"DM Mono" ;
+    color:hsl(340, 48%, 52%);
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+
+#pink span {
+    margin-left: 110px;
+}
+
+
+/* CARD3--------------------------------------------------------------------------------- */
+.clear {
+    grid-area: clear;
+}

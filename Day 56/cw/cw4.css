@@ -1,0 +1,19 @@
+/* 4.შექმენით ერთი div. გამოიყენეთ transition-delay: 1s, რათა მაუსის მიტანის შემდეგ div-ის გადიდება 1.5-ჯერ 1 წამის დაგვიანებით დაიწყოს. */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    transition-delay:1s ;
+}
+
+div:hover {
+    transform: scale(1.5);
+}

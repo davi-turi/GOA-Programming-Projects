@@ -1,0 +1,19 @@
+/* 2.შექმენით ერთი div. მაუსის მიტანისას ის გადაადგილდეს 50px-ით მარჯვნივ. გამოიყენეთ transition: 2s. */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+div {
+    width: 100px;
+    height: 80px;
+    background-color: greenyellow;
+    transition: 2s;
+}
+
+div:hover {
+    transform: translate(50px);
+}

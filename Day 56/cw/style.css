@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    
+}
+
+.parent {
+    background-color: grey;
+    margin-top: 100px;
+    width: 800px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(10, 100px);
+    grid-template-areas:
+    'header header header header'
+    'sidebar featured featured login'
+    'sidebar featured featured login'
+    'sidebar game1 game2 login'
+    'sidebar game3 game4 login'
+    'popular popular popular popular'
+    'game5 game6 game7 game8'
+    'big big news news'
+    'big big news news'
+    'footer footer footer footer';
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-right: dashed white 3px;
+    border-left: dashed white 3px;
+}
+
+#head {
+    grid-area: header;
+}
+
+#side {
+    grid-area: sidebar;
+}
+
+#login {
+    grid-area: login;
+}
+
+#feat {
+    grid-area: featured;
+}
+
+#game1 {
+    grid-area: game1;
+}
+
+#game2 {
+    grid-area: game2;
+}
+#game3 {
+    grid-area: game3;
+}
+#game4 {
+    grid-area: game4;
+}
+
+#pop {
+    grid-area: popular;
+}
+
+#game5 {
+    grid-area: game5;
+}
+#game6 {
+    grid-area: game6;
+}
+#game7 {
+    grid-area: game7;
+}
+#game8 {
+    grid-area: game8;
+}
+
+#big {
+    grid-area: big;
+}
+
+#news {
+    grid-area: news;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+.child {
+    border: solid 1px white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

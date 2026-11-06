@@ -1,0 +1,19 @@
+/* 1.შექმენით ერთი div კვადრატის ფორმით. მაუსის მიტანისას div გაიზარდოს 1.5-ჯერ და შემობრუნდეს 45 გრადუსით. გამოიყენეთ transition: 1s. */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: 1s;
+}
+
+div:hover {
+    transform: scale(1.5) rotate(45deg);
+}

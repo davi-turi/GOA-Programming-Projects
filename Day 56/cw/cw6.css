@@ -1,0 +1,21 @@
+/* 6.შექმენით ერთი div. გამოიყენეთ transform-origin: top right, რათა მაუსის მიტანისას div 45 გრადუსით შემობრუნდეს ზედა მარჯვენა კუთხის გარშემო. გამოიყენეთ transition: 1s. */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+    transition: 1s;
+}
+
+div:hover {
+    transform: rotate(45deg);
+    transform-origin: top right;
+}

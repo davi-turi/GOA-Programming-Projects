@@ -1,0 +1,20 @@
+/* შექმენით ერთი div. მაუსის მიტანისას გამოიყენეთ ერთდროულად translate() და rotate(), რათა div 100px-ით მარჯვნივ გადაადგილდეს და 90 გრადუსით შემობრუნდეს. გამოიყენეთ transition: 2s. */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+div {
+    width: 250px;
+    height: 150px;
+    background-color: chocolate;
+    border-radius: 20px;
+    transition: 2s;
+}
+
+div:hover {
+    transform: translate(100px) rotate(90deg);
+}
